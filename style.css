@@ -5,9 +5,10 @@
 }
 
 body{
-    background-color: bisque;
+    background-color: darkslategrey;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .top{
@@ -17,20 +18,33 @@ body{
 }
 
 .middle{
-    background-color: yellow;
     height: 60vh;
     width: 100%;
+    display: flex;
+    gap: 1em;
+    padding-block: 10px;
+
+    .left{
+        background-color: lightgray;
+        height: 100%;
+        width: 50%;
+    }
+
+    .right{
+        background-color:whitesmoke;
+        height: 100%;
+        width: 50%;
+    }
 }
 
 .bottom{
     display: flex;
-    flex-direction: column;
     height: 25vh;
     width: 100%s;
 }
 
 .cuadrado{
-background-color: lightblue;
+    background-color: lightblue;
     height: 100%;
     aspect-ratio: 1/1;
 }
