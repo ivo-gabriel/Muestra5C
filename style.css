@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+}
+
+.middle{
+    background-color: yellow;
+    height: 60vh;
+    width: 100%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 100%s;
+}
+
+.cuadrado{
+background-color: lightblue;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+.galeria_container{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
